@@ -23,7 +23,7 @@ The goal is to recognize an Epileptic seizure against the rest. A task of binary
 <b>Selected models.</b>
 
 The features are treated as a time series of 178 points. Three ways to extract features lead to different classifiers:
-* use the raw data as features (notebook: <code>classification_raw_data.ipynb</code>)
+* baseline classifier using the raw data as features (notebook: <code>classification_raw_data.ipynb</code>)
 * apply discrete wavelet transform, then use classical statistical quantites (percentiles, mean, entropy, number of zero crossigs etc); also estimate the spectrum (Welch estimator) and use the positions and values of first spectral peaks (notebook:  <code>classification_wavelets_fourier.ipynb</code>).
 * use the features extracted by <code>tsfel.time_series_features_extractor</code> (notebook:  <code>classification_tsfel.ipynb</code>).
 
