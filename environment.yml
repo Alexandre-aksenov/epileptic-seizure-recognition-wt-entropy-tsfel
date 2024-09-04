@@ -1,0 +1,17 @@
+name: ML_ts2bis
+channels:
+  - defaults
+dependencies:
+  - ipykernel=6.28.0
+  - ipython=8.25.0
+  - matplotlib=3.9.2
+  - matplotlib-base=3.9.2
+  - matplotlib-inline=0.1.6
+  - pandas=2.2.2
+  - python=3.11.9
+  - pywavelets=1.5.0
+  - scikit-learn=1.5.1
+  - scipy=1.13.1
+  - tqdm=4.66.5
+  - pip:
+      - tsfel==0.1.8
