@@ -3,6 +3,8 @@ Epilepsy detection using EEG data.
 
 Epileptic activity can be recognized by a specialist as activity with much higher signal amplitude (see [Vila-Vidal et als]). Despite this observation, automatic classification is expected to be hindered by differences in distance between the epicenter and the measurement electrode. The models presented here were not given any *a priori* information to use the signal amplitude as feature. Despite this, the classification models perform quite well.
 
+This repository contains three folders: "src" contains notebooks with classification models and modules for feature extraction, "res" contains pictures produced durng Exploratory Analysis and "dat" contains the raw data.
+
 Reference:
 
 M. Vila-Vidal, C. P. Enríquez, A. Principe, R. Rocamora, G. Deco, A. T. Campo "Low entropy map of brain oscillatory activity identifies spatially localized events: A new method for automated epilepsy focus prediction", Neuroimage 208 (2020)
